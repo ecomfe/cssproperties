@@ -1,0 +1,38 @@
+{
+  "name": "cssproperties",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cssproperties": "./bin/cssproperties"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "fecs": "*",
+    "istanbul": "^0.3.2",
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "lint": "fecs lib cli test/**/*.spec.js --type=js",
+    "coverage": "istanbul cover jasmine-node --captureExceptions test/**/*.spec.js",
+    "test": "npm run lint && npm run coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecomfe/cssproperties.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Chris",
+    "email": "wfsr@foxmail.com",
+    "url": "https://github.com/chriswong"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecomfe/cssproperties/issues"
+  },
+  "homepage": "https://github.com/ecomfe/cssproperties"
+}
