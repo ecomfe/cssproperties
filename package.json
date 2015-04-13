@@ -1,12 +1,17 @@
 {
   "name": "cssproperties",
   "version": "0.0.1",
-  "description": "",
+  "description": "Get all available CSS properties",
   "main": "index.js",
   "bin": {
     "cssproperties": "./bin/cssproperties"
   },
   "dependencies": {
+    "chalk": "^0.5.1",
+    "cheerio": "^0.18.0",
+    "cli-table-zh": "^0.3.1",
+    "each-async": "^1.1.1",
+    "got": "^2.3.1"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
