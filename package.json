@@ -10,7 +10,6 @@
     "chalk": "^0.5.1",
     "cheerio": "^0.18.0",
     "cli-table-zh": "^0.3.1",
-    "each-async": "^1.1.1",
     "got": "^2.3.1"
   },
   "devDependencies": {
